@@ -1,0 +1,8 @@
+language: node_js
+script: "node ."
+after_success: |
+    mkdir -p target && \
+    mv generated.json target && \
+    sudo pip install ghp-import && \
+    ghp-import -n target && \
+    git push -qf https://${TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git gh-pages

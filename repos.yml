@@ -1,0 +1,19 @@
+repos:
+    - id: leancloud/leanmessage-javascript-sdk
+      tags: !!seq [messaging, sdk, official, javascript, nodejs, web]
+      desc: official javascript sdk of leancloud messaging service
+      license:
+
+    - id: turingou/avoscloud-sign
+      tags: !!seq [tools, signature]
+      desc: a cli tool to create avoscloud sign
+      license: MIT
+
+    - id: smartweb/LeanMotion
+      tags: !!seq [ruby, database]
+      desc: LeanMotion 是一个RubyMotion的Gem，可以更加方便地使用LeanCloud SDK。
+      license: MIT
+
+    - id: zx9597446/go-leancloud
+      tags: !!seq [go]
+      license: MIT
