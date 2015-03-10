@@ -19,6 +19,9 @@ async.mapLimit(repos_db.repos, 3, function(item, callback){
     if (! err) {
       console.log('Loaded:', item.id);
 
+      delete item.id;
+      item.name = data.name;
+
       item.owner = {};
       item.owner.login = data.owner.login;
       item.owner.url = data.owner.html_url;
