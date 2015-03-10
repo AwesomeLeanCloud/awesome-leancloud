@@ -1,6 +1,6 @@
 language: node_js
-sudo: false
 script: "node . && cd static && bower install"
+before_script: "sudo npm install -g bower"
 after_success: |
     mkdir -p target && \
     cp -r static/* target/ && \
