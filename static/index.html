@@ -108,7 +108,7 @@
      window.AL = {};
      AL.tpl = Handlebars.compile($('#repo-tpl').html());
 
-     $.getJSON("/generated.json", function(data) {
+     $.getJSON("./generated.json", function(data) {
        $(".last-update span").text(data.updated);
        AL.data = data;
 
