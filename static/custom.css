@@ -1,0 +1,123 @@
+h1, h2 {
+    color: #314549;
+}
+
+.section.hero {
+    background: url('splash.jpg') center center no-repeat;
+    padding: 16rem 0;
+}
+
+/* .awesome { */
+/*     font-size: 1.2em; */
+/* } */
+/* .leancloud { */
+/*     font-size: 1em; */
+/* } */
+
+.hero-heading {
+    background-color: rgba(255,255,255,0.4);
+    padding: 10px;
+    border-radius:20px;
+    text-align: center;
+}
+
+.hero-heading h1 {
+    font-weight: bold;
+    font-size: 4em;
+}
+
+a.button-submit:link,
+a.button-submit:visited {
+    background-color: #4F6C68;
+    border: #7E8C7C;
+    color: #FFFFFF;
+}
+
+a.button-submit:hover{
+    background-color: #47615D;
+    border: #7E8C7C;
+    color: #FFFFFF;
+}
+
+
+p.last-update {
+    font-size:0.8em;
+}
+
+.section.search {
+    padding: 4rem 0;
+    border-bottom: 1px solid #EEE;
+}
+.section.highlight {
+    padding:4rem 0;
+}
+
+ul.no-style li {
+    list-style: none;
+}
+
+div.repo {
+    margin:5px;
+    border:1px #CCC solid;
+    border-radius: 5px;
+    max-width: 350px;
+}
+
+div.repo a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+}
+div.repo a:hover {
+    color: #333;
+}
+div.repo h3 {
+    font-weight: bold;
+    line-height: 0.9;
+    margin-top: 4rem;
+}
+div.repo a span.owner {
+    font-size: 0.5em;
+}
+div.repo a span.name {
+    font-size: 1.1em;
+}
+div.repo a span.lang {
+    font-size: 0.8em;
+}
+div.repo div.detail {
+    padding: 10px 20px;
+    background: #EEE;
+    color: #888;
+}
+div.repo .avatar {
+    width: 32px;
+    height: 32px;
+}
+div.repo .tag {
+    font-size: 0.8em;
+    font-style: italic;
+}
+div.repo .stars {
+    font-weight: bold;
+}
+div.repo .update {
+    font-size: 0.8em;
+}
+
+ul.popular-search li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+div.search-results ul li {
+    display: inline-block;
+}
+div.search-results .repo{
+    max-width: 300px;
+}
+div.footer {
+    padding: 10px;
+    border-top: 1px #EEE solid;
+}
