@@ -1,7 +1,9 @@
 language: node_js
-script: "node ."
+sudo: false
+script: "node . && cd static && bower install"
 after_success: |
     mkdir -p target && \
+    cp -r static/* target/ && \
     mv generated.json target && \
     sudo pip install ghp-import && \
     ghp-import -n target && \
