@@ -1,6 +1,8 @@
 language: node_js
+node_js:
+  - "0.12"
 script: "node . && cd static && bower install"
-before_script: "sudo npm install -g bower"
+before_script: "npm install -g bower"
 after_success: |
     mkdir -p target && \
     cp -r static/* target/ && \
