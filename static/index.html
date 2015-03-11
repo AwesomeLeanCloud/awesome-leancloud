@@ -129,6 +129,7 @@
         .countBy(function(tag){return tag})
         .pairs()
         .sortBy(function(i){return i[1]})
+        .reverse()
         .take(8)
         .map(function(i){return i[0]})
         .forEach(function(i){
