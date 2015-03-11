@@ -21,3 +21,43 @@ repos:
     - id: zx9597446/go-leancloud
       tags: !!seq [go]
       license: MIT
+      
+    - id: leancloud/python-sdk
+      tags: !!seq [storage, python, sdk, official]
+      license: LGPL
+      
+    - id: baozoumanhua/LeanCloud
+      tags: !!seq [ruby, push]
+      license: MIT
+      
+    - id: loveltyoic/avos-ruby-sdk
+      tags: !!seq [storage, ruby, sdk]
+      license: MIT
+      
+    - id: daheli/leancloud-rest-api-sdk-java-client
+      tags: !!seq [java, sdk, storage, push]
+      license: LGPL
+      
+    - id: Ryan4GT/RyanAppTemplate
+      tags: !!seq [android, boilerplate]
+      license:
+      
+    - id: Hybrid-Force/cordova-plugin-lean-push
+      tags: !!seq [push, cordova, ios]
+      license: MIT
+      
+    - id: jwfing/FreeChat
+      tags: !!seq [messaging, ios, demo]
+      license:
+      
+    - id: turingou/ionic-leancloud
+      tags: !!seq [nodejs, boilerplate, ionic]
+      license: MIT
+      
+    - id: turingou/leancloud-logger
+      tags: !!seq [nodejs, cloudcode]
+      license: MIT
+      
+    - id: lzwjava/rocket-chat
+      tags: !!seq [messaging, android]
+      license:
