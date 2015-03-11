@@ -61,6 +61,14 @@ div.repo {
     border:1px #CCC solid;
     border-radius: 5px;
     max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+div.repo-head {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
 }
 
 div.repo a {
@@ -68,6 +76,7 @@ div.repo a {
     padding: 20px;
     text-decoration: none;
     color: #000;
+    flex: 1 0 auto;
 }
 div.repo a:hover {
     color: #333;
@@ -90,6 +99,12 @@ div.repo div.detail {
     padding: 10px 20px;
     background: #EEE;
     color: #888;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+div.repo div.detail {
+    flex: 1 0 auto;
 }
 div.repo .avatar {
     width: 32px;
@@ -105,19 +120,34 @@ div.repo .stars {
 div.repo .update {
     font-size: 0.8em;
 }
+div.repo p {
+    flex: 1 0 auto;
+}
 
 ul.popular-search li {
     display: inline-block;
     margin: 0 10px;
 }
 
-div.search-results ul li {
-    display: inline-block;
+div.search-results ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
+
+div.search-results ul li {
+    flex-grow:1;
+    margin-right:5px;
+    justify-content: center;
+}
+
 div.search-results .repo{
     max-width: 300px;
+
 }
 div.footer {
-    padding: 10px;
+    padding: 20px 10px;
     border-top: 1px #EEE solid;
+    background-color: #47615D;
+    color: #fff;
 }

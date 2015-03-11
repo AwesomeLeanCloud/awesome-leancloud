@@ -83,17 +83,19 @@
     <script type="text/x-handlebars-template" id="repo-tpl">
       <li>
         <div class="repo">
-          <a href="{{url}}" class="repo-link">
-            <img src="{{owner.avatar_url}}" class="u-pull-right avatar">
-            <h3>
-              <span class="owner">{{owner.login}}</span><br>
-              <span class="name">{{name}}</span>
-            </h3>
-            <span class="lang">{{language}} &middot; {{license}}</span>
-          </a>
+          <div class="repo-head">
+            <a href="{{url}}" class="repo-link">
+              <img src="{{owner.avatar_url}}" class="u-pull-right avatar">
+              <h3>
+                <span class="owner">{{owner.login}}</span><br>
+                <span class="name">{{name}}</span>
+              </h3>
+              <span class="lang">{{language}} &middot; {{license}}</span>
+            </a>
+          </div>
           <div class="detail">
-            <p>{{desc}}</p>
-            <p><span class="octicon octicon-tag"></span> {{#each tags}}<span class="tag">{{this}}</span> {{/each}}</p>
+            <p class="repo-desc">{{desc}}</p>
+            <p class="repo-desc"><span class="octicon octicon-tag"></span> {{#each tags}}<span class="tag">{{this}}</span> {{/each}}</p>
             <p>
               <span class="u-pull-left update">{{last_update}}</span>
               <span class="u-pull-right stars"><span class="octicon octicon-star"></span> {{stars}}</span>
