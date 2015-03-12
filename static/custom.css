@@ -100,11 +100,9 @@ div.repo div.detail {
     background: #EEE;
     color: #888;
     display: flex;
-    flex: 1 0 auto;
     flex-direction: column;
 }
 div.repo div.detail {
-    flex: 1 0 auto;
 }
 div.repo .avatar {
     width: 32px;
@@ -121,7 +119,6 @@ div.repo .update {
     font-size: 0.8em;
 }
 div.repo p {
-    flex: 1 0 auto;
 }
 
 ul.popular-search li {
@@ -133,17 +130,24 @@ div.search-results ul {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
+    justify-content: flex-start;
 }
 
 div.search-results ul li {
-    flex-grow:1;
-    margin-right:5px;
-    justify-content: center;
+    flex-grow:0;
+    padding-right:10px;
+    box-sizing: border-box;
+    width: 33%;
 }
 
 div.search-results .repo{
-    max-width: 300px;
-
+    height: 100%;
+}
+div.search-results .repo .repo-desc {
+    flex: 1 0 auto;
+}
+div.search-results .repo .detail p:last-child {
+    mergin-bottom:0;
 }
 div.footer {
     padding: 20px 10px;
