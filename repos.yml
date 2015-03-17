@@ -15,7 +15,7 @@ repos:
 
     - id: smartweb/LeanMotion
       tags: !!seq [ruby, database]
-      desc: LeanMotion 是一个RubyMotion的Gem，可以更加方便地使用LeanCloud SDK。
+      desc: LeanMotion 是一个 RubyMotion 的 Gem，可以更加方便地使用 LeanCloud SDK。
       license: MIT
 
     - id: zx9597446/go-leancloud
@@ -70,4 +70,9 @@ repos:
     - id: leancloud/cloud-code-weixin
       tags: !!seq [nodejs, cloudcode, weixin]
       desc: 云代码接入微信的示例
+      license: MIT
+
+    - id: greenmoon55/EasyNote
+      tags: !!seq [android, demo, sns, weibo]
+      desc: 简单的 Android 笔记应用，涉及数据的增删改查、微博授权登录和 ACL 权限设置。
       license: MIT
