@@ -76,3 +76,8 @@ repos:
       tags: !!seq [android, demo, sns, weibo]
       desc: 简单的 Android 笔记应用，涉及数据的增删改查、微博授权登录和 ACL 权限设置。
       license: MIT
+      
+    - id: leancloud/delphi-sdk
+      tags: !!seq [delphi, sdk]
+      desc: Delphi SDK 和 demo
+      license:
