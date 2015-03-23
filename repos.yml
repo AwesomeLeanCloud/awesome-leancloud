@@ -3,9 +3,8 @@ repos:
   # tags：可选，一组 tag 用来描述你的库、工具
   # desc：可选，一段给人类的文本描述你的库、工具
   # license：可选，你的开源协议
-    - id: leancloud/leanmessage-javascript-sdk
-      tags: !!seq [messaging, sdk, official, javascript, nodejs, web]
-      desc: official javascript sdk of leancloud messaging service
+    - id: leancloud/js-realtime-sdk
+      tags: !!seq [messaging, sdk, official, javascript, web]
       license:
 
     - id: turingou/avoscloud-sign
