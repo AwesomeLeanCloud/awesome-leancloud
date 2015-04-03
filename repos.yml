@@ -80,3 +80,15 @@ repos:
       tags: !!seq [delphi, sdk]
       desc: Delphi SDK 和 demo
       license:
+      
+    - id: GongT/LEAN-G
+      tags: !!seq [nodejs, framework]
+      license:
+      
+    - id: stevezheng/YiIonicListView
+      tags: !!seq [ionic]
+      license:
+    
+    - id: SK8-PTY-LTD/leancloud-angular
+      tags: !!seq [boilerplate, angular, javascript]
+      license: MIT
