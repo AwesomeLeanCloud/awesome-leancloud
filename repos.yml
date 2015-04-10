@@ -92,3 +92,8 @@ repos:
     - id: SK8-PTY-LTD/leancloud-angular
       tags: !!seq [boilerplate, angular, javascript]
       license: MIT
+      
+    - id: killme2008/leancloud-php-library
+      tags: !!seq [PHP, SDK]
+      desc: PHP SDK for LeanCloud
+      license: MIT
