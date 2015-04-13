@@ -97,3 +97,9 @@ repos:
       tags: !!seq [PHP, SDK]
       desc: PHP SDK for LeanCloud
       license: MIT
+    
+    - id: killme2008/leancloud-ruby-client
+      tags: !!seq [Ruby,SDK]
+      desc: A simple Ruby client for the leancloud.cn REST API
+      license: MIT 
+    
