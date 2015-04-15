@@ -102,4 +102,8 @@ repos:
       tags: !!seq [Ruby,SDK]
       desc: A simple Ruby client for the leancloud.cn REST API
       license: MIT 
+      
+    - id: xhzengAIB/MessageDisplayKit
+      tags: !!seq [iOS, messaging, UI, demo]
+      license: MIT
     
