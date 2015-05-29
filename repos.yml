@@ -107,3 +107,6 @@ repos:
       tags: !!seq [iOS, messaging, UI, demo]
       license: MIT
     
+    - id: lostpupil/node-js-getting-started
+      tags: !!seq [nodejs, cloudcode, coffeescript]
+      license:
