@@ -3,110 +3,16 @@ repos:
   # tags：可选，一组 tag 用来描述你的库、工具
   # desc：可选，一段给人类的文本描述你的库、工具
   # license：可选，你的开源协议
-    - id: leancloud/js-realtime-sdk
-      tags: !!seq [messaging, sdk, official, javascript, web]
+    - id: SuperID/SuperID_iOSSDK
+      tags: !!seq [iOS, facelogin, superid]
+      desc: 一登 SDK 为应用提供了便捷的刷脸登录模式。通过一登账号体系，移动终端用户可快速登录开发者应用。同时，一登SDK提供了人脸属性高级功能，让移动开发者可以基于人脸属性，为应用做更精准的数据推送。
       license:
 
-    - id: turingou/avoscloud-sign
-      tags: !!seq [tools, signature]
-      desc: a cli tool to create avoscloud sign
-      license: MIT
+    - id: SuperID/SuperID_AndroidSDK
+      tags: !!seq [android, facelogin, superid]
+      desc: 一登 SDK 为应用提供了便捷的刷脸登录模式。通过一登账号体系，移动终端用户可快速登录开发者应用。同时，一登SDK提供了人脸属性高级功能，让移动开发者可以基于人脸属性，为应用做更精准的数据推送。
 
-    - id: smartweb/LeanMotion
-      tags: !!seq [ruby, database]
-      desc: LeanMotion 是一个 RubyMotion 的 Gem，可以更加方便地使用 LeanCloud SDK。
-      license: MIT
-
-    - id: zx9597446/go-leancloud
-      tags: !!seq [go]
-      license: MIT
-      
-    - id: leancloud/python-sdk
-      tags: !!seq [storage, python, sdk, official]
-      license: LGPL
-      
-    - id: baozoumanhua/LeanCloud
-      tags: !!seq [ruby, push]
-      license: MIT
-      
-    - id: loveltyoic/avos-ruby-sdk
-      tags: !!seq [storage, ruby, sdk]
-      license: MIT
-      
-    - id: daheli/leancloud-rest-api-sdk-java-client
-      tags: !!seq [java, sdk, storage, push]
-      license: LGPL
-      
-    - id: Ryan4GT/RyanAppTemplate
-      tags: !!seq [android, boilerplate]
-      license:
-      
-    - id: Hybrid-Force/cordova-plugin-lean-push
-      tags: !!seq [push, cordova, ios]
-      license: MIT
-      
-    - id: jwfing/FreeChat
-      tags: !!seq [messaging, ios, demo]
-      license:
-      
-    - id: turingou/ionic-leancloud
-      tags: !!seq [nodejs, boilerplate, ionic]
-      license: MIT
-      
-    - id: turingou/leancloud-logger
-      tags: !!seq [nodejs, cloudcode]
-      license: MIT
-      
-    - id: lzwjava/rocket-chat
-      tags: !!seq [messaging, android]
-      license:
-      
-    - id: leancloud/cloud-code-alipay
-      tags: !!seq [nodejs, cloudcode, alipay]
-      desc: 云代码接入支付宝的示例
-      license: MIT
-      
-    - id: leancloud/cloud-code-weixin
-      tags: !!seq [nodejs, cloudcode, weixin]
-      desc: 云代码接入微信的示例
-      license: MIT
-
-    - id: greenmoon55/EasyNote
-      tags: !!seq [android, demo, sns, weibo]
-      desc: 简单的 Android 笔记应用，涉及数据的增删改查、微博授权登录和 ACL 权限设置。
-      license: MIT
-      
-    - id: leancloud/delphi-sdk
-      tags: !!seq [delphi, sdk]
-      desc: Delphi SDK 和 demo
-      license:
-      
-    - id: GongT/LEAN-G
-      tags: !!seq [nodejs, framework]
-      license:
-      
-    - id: stevezheng/YiIonicListView
-      tags: !!seq [ionic]
-      license:
-    
-    - id: SK8-PTY-LTD/leancloud-angular
-      tags: !!seq [boilerplate, angular, javascript]
-      license: MIT
-      
-    - id: killme2008/leancloud-php-library
-      tags: !!seq [PHP, SDK]
-      desc: PHP SDK for LeanCloud
-      license: MIT
-    
-    - id: killme2008/leancloud-ruby-client
-      tags: !!seq [Ruby,SDK]
-      desc: A simple Ruby client for the leancloud.cn REST API
-      license: MIT 
-      
-    - id: xhzengAIB/MessageDisplayKit
-      tags: !!seq [iOS, messaging, UI, demo]
-      license: MIT
-    
-    - id: lostpupil/node-js-getting-started
-      tags: !!seq [nodejs, cloudcode, coffeescript]
-      license:
+    - id: yourtion/SuperLogger
+      tags: !!seq [iOS, logger]
+      desc: Save NSLog() to file and send email to developer
+      license: Apache
