@@ -110,3 +110,8 @@ repos:
     - id: lostpupil/node-js-getting-started
       tags: !!seq [nodejs, cloudcode, coffeescript]
       license:
+    
+    - id: GongT/lean-g-database-session
+      tags: !!seq [nodejs, cloudcode, session]
+      license: WTFPL
+      desc: session存在cookie里让请求包越来越大有木有？太大的session根本放不下有木有？这个库帮你解决烦恼！
