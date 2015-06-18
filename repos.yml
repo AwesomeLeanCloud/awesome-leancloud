@@ -115,3 +115,7 @@ repos:
       tags: !!seq [nodejs, cloudcode, session]
       license: WTFPL
       desc: session存在cookie里让请求包越来越大有木有？太大的session根本放不下有木有？这个库帮你解决烦恼！
+      
+    - id: SK8-PTY-LTD/AVImageView
+      tags: !!seq [android]
+      license: MIT
