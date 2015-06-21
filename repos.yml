@@ -123,4 +123,4 @@ repos:
     - id: iCodesign/ICDLeanCloudExt
       tags: !!seq [ios]
       license: MIT
-      desc : Leancloud iOS SDK 扩展, 支持 Core Data 本地存储和同步, 支持 ReactiveCocoa
+      desc : AVObject 扩展, 支持 Core Data 本地存储和同步, 支持 ReactiveCocoa
