@@ -128,3 +128,8 @@ repos:
     - id: jwfing/migration-parse-to-leancloud
       tags: !!seq [ios parse leancloud migration]
       desc: 类型定义头文件，支持从 Parse 无缝迁移到 LeanCloud
+
+    - id: stableShip/leancloud_tornado
+      tags: !!seq [python,tornado,leancloud,demo]
+      desc: a demo of leancloud which use tornado framework
+      license: MIT
