@@ -52,6 +52,8 @@ async.mapLimit(repos_db.repos, 3, function(item, callback){
     };
     var generated_json = JSON.stringify(output);
     fs.writeFile('./generated.json', generated_json);
+  } else {
+    process.exit(1);
   }
 });
 //gh.repos.get()

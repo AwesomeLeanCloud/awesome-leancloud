@@ -20,52 +20,44 @@ repos:
     - id: zx9597446/go-leancloud
       tags: !!seq [go]
       license: MIT
-      
+
     - id: leancloud/python-sdk
       tags: !!seq [storage, python, sdk, official]
       license: LGPL
-      
+
     - id: baozoumanhua/LeanCloud
       tags: !!seq [ruby, push]
       license: MIT
-      
+
     - id: loveltyoic/avos-ruby-sdk
       tags: !!seq [storage, ruby, sdk]
       license: MIT
-      
+
     - id: daheli/leancloud-rest-api-sdk-java-client
       tags: !!seq [java, sdk, storage, push]
       license: LGPL
-      
+
     - id: Ryan4GT/RyanAppTemplate
       tags: !!seq [android, boilerplate]
       license:
-      
-    - id: Hybrid-Force/cordova-plugin-lean-push
-      tags: !!seq [push, cordova, ios]
-      license: MIT
-      
+
     - id: jwfing/FreeChat
       tags: !!seq [messaging, ios, demo]
       license:
-      
+
     - id: turingou/ionic-leancloud
       tags: !!seq [nodejs, boilerplate, ionic]
       license: MIT
-      
+
     - id: turingou/leancloud-logger
       tags: !!seq [nodejs, cloudcode]
       license: MIT
-      
-    - id: lzwjava/rocket-chat
-      tags: !!seq [messaging, android]
-      license:
-      
+
     - id: leancloud/cloud-code-alipay
       tags: !!seq [nodejs, cloudcode, alipay]
       desc: 云代码接入支付宝的示例
       license: MIT
-      
+
     - id: leancloud/cloud-code-weixin
       tags: !!seq [nodejs, cloudcode, weixin]
       desc: 云代码接入微信的示例
@@ -75,56 +67,52 @@ repos:
       tags: !!seq [android, demo, sns, weibo]
       desc: 简单的 Android 笔记应用，涉及数据的增删改查、微博授权登录和 ACL 权限设置。
       license: MIT
-      
+
     - id: leancloud/delphi-sdk
       tags: !!seq [delphi, sdk]
       desc: Delphi SDK 和 demo
       license:
-      
+
     - id: GongT/LEAN-G
       tags: !!seq [nodejs, framework]
       license:
-      
+
     - id: stevezheng/YiIonicListView
       tags: !!seq [ionic]
       license:
-    
+
     - id: SK8-PTY-LTD/leancloud-angular
       tags: !!seq [boilerplate, angular, javascript]
       license: MIT
-      
+
     - id: killme2008/leancloud-php-library
       tags: !!seq [PHP, SDK]
       desc: PHP SDK for LeanCloud
       license: MIT
-    
+
     - id: killme2008/leancloud-ruby-client
       tags: !!seq [Ruby,SDK]
       desc: A simple Ruby client for the leancloud.cn REST API
-      license: MIT 
-      
+      license: MIT
+
     - id: xhzengAIB/MessageDisplayKit
       tags: !!seq [iOS, messaging, UI, demo]
       license: MIT
-    
+
     - id: lostpupil/node-js-getting-started
       tags: !!seq [nodejs, cloudcode, coffeescript]
       license:
-    
+
     - id: GongT/lean-g-database-session
       tags: !!seq [nodejs, cloudcode, session]
       license: WTFPL
       desc: session存在cookie里让请求包越来越大有木有？太大的session根本放不下有木有？这个库帮你解决烦恼！
-      
-    - id: SK8-PTY-LTD/AVImageView
-      tags: !!seq [android]
-      license: MIT
 
     - id: iCodesign/ICDLeanCloudExt
       tags: !!seq [ios]
       license: MIT
       desc : AVObject 扩展, 支持 Core Data 本地存储和同步, 支持 ReactiveCocoa
-      
+
     - id: jwfing/migration-parse-to-leancloud
       tags: !!seq [ios parse leancloud migration]
       desc: 类型定义头文件，支持从 Parse 无缝迁移到 LeanCloud
