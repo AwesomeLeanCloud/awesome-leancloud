@@ -73,9 +73,10 @@ repos:
       desc: Delphi SDK 和 demo
       license:
 
-    - id: GongT/LEAN-G
+    - id: GongT/lean-g-command
       tags: !!seq [nodejs, framework]
-      license:
+      license: MIT
+      desc: 让你能够专注于逻辑的 leancloud云代码、express开发框架。
 
     - id: stevezheng/YiIonicListView
       tags: !!seq [ionic]
