@@ -119,11 +119,14 @@ repos:
       desc: 类型定义头文件，支持从 Parse 无缝迁移到 LeanCloud
 
     - id: stableShip/leancloud_tornado
-      tags: !!seq [python,tornado,leancloud,demo]
+      tags: !!seq [python, tornado, leancloud, demo]
       desc: a demo of leancloud which use tornado framework
       license: MIT
       
     - id: BenBBear/cordova-plugin-leanpush
-      tags: !!seq [ios android push notification analytics cordova]
+      tags: !!seq [ios, android, push, notification, analytics, cordova]
       desc: 一个leancloud消息推送服务的cordova插件，在onCreate, onResume, foreground三种状态中webView都能接收到推送数据。 平台：ios，android
       license: MIT
+      
+    - id: refear99/easy-leancloud
+      tags: !!seq [php, storage, sdk]
