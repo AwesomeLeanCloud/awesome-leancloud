@@ -130,3 +130,6 @@ repos:
       
     - id: refear99/easy-leancloud
       tags: !!seq [php, storage, sdk]
+      
+    - id: turingou/react-native-leancloud
+      tags: !!seq [react, javascript]
