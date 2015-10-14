@@ -7,7 +7,7 @@ repos:
       tags: !!seq [messaging, sdk, official, javascript, web]
       license:
 
-    - id: turingou/avoscloud-sign
+    - id: guo-yu/avoscloud-sign
       tags: !!seq [tools, signature]
       desc: a cli tool to create avoscloud sign
       license: MIT
@@ -45,11 +45,11 @@ repos:
       tags: !!seq [messaging, ios, demo]
       license:
 
-    - id: turingou/ionic-leancloud
+    - id: guo-yu/ionic-leancloud
       tags: !!seq [nodejs, boilerplate, ionic]
       license: MIT
 
-    - id: turingou/leancloud-logger
+    - id: guo-yu/leancloud-logger
       tags: !!seq [nodejs, cloudcode]
       license: MIT
 
@@ -131,7 +131,7 @@ repos:
     - id: refear99/easy-leancloud
       tags: !!seq [php, storage, sdk]
       
-    - id: turingou/react-native-leancloud
+    - id: guo-yu/react-native-leancloud
       tags: !!seq [react, javascript]
 
     - id: leeyeh/angular-leancloud-realtime
