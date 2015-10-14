@@ -133,3 +133,8 @@ repos:
       
     - id: turingou/react-native-leancloud
       tags: !!seq [react, javascript]
+
+    - id: leeyeh/angular-leancloud-realtime
+      tags: !!seq [angular, javascript, realtime]
+      desc: LeanCloud Realtime module for Angular
+      license: MIT
