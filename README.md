@@ -3,7 +3,7 @@
 LeanCloud 开源生态系统聚合。
 [访问网站 leancloud.sexy](http://leancloud.sexy)。
 
-[![Build Status](https://travis-ci.org/sunng87/awesome-leancloud.svg)](https://travis-ci.org/sunng87/awesome-leancloud) [![Awesome LeanCloud](https://img.shields.io/badge/Awesome-LeanCloud-47615d.svg)](http://leancloud.sexy)
+[![Build Status](https://travis-ci.org/sunng87/awesome-leancloud.svg)](https://travis-ci.org/sunng87/awesome-leancloud) [![Awesome LeanCloud](https://img.shields.io/badge/Awesome-LeanCloud-2c97e8.svg)](http://leancloud.sexy)
 
 ## 添加你的仓库
 
