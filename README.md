@@ -3,7 +3,7 @@
 LeanCloud 开源生态系统聚合。
 [访问网站 leancloud.sexy](http://leancloud.sexy)。
 
-[![Build Status](https://travis-ci.org/sunng87/awesome-leancloud.svg)](https://travis-ci.org/sunng87/awesome-leancloud) [![Awesome LeanCloud](https://img.shields.io/badge/Awesome-LeanCloud-47615d.svg)](http://leancloud.sexy)
+[![Build Status](https://travis-ci.org/sunng87/awesome-leancloud.svg)](https://travis-ci.org/sunng87/awesome-leancloud) [![Awesome LeanCloud](https://img.shields.io/badge/Awesome-LeanCloud-2c97e8.svg)](http://leancloud.sexy)
 
 ## 添加你的仓库
 
@@ -13,7 +13,7 @@ Fork 并编辑 repo.yml，请至少提供仓库 id。写一些 tags 和 descript
 添加 Awesome LeanCloud badge 到你的 README：
 
 ```markdown
-[![Awesome LeanCloud](https://img.shields.io/badge/Awesome-LeanCloud-47615d.svg)](http://leancloud.sexy)
+[![Awesome LeanCloud](https://img.shields.io/badge/Awesome-LeanCloud-2c97e8.svg)](http://leancloud.sexy)
 ```
 
 ## Contribution
