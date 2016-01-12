@@ -13,7 +13,7 @@ Fork 并编辑 repo.yml，请至少提供仓库 id。写一些 tags 和 descript
 添加 Awesome LeanCloud badge 到你的 README：
 
 ```markdown
-[![Awesome LeanCloud](https://img.shields.io/badge/Awesome-LeanCloud-47615d.svg)](http://leancloud.sexy)
+[![Awesome LeanCloud](https://img.shields.io/badge/Awesome-LeanCloud-2c97e8.svg)](http://leancloud.sexy)
 ```
 
 ## Contribution
