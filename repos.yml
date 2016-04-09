@@ -142,3 +142,7 @@ repos:
     - id: ChitaGideon/leancloud-krakenjs
       tags: !!seq [nodejs javascript demo cloudcode]
       desc: krakenjs framework deploy example for leancloud cloud
+    
+    - id: twiceyuan/RxLeanCloud
+      tags: !!seq [Android, RxJava, ReactiveX, RxAndroid]
+      license: WTFPL
