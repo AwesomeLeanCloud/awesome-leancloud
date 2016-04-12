@@ -58,7 +58,7 @@ repos:
       desc: 云代码接入支付宝的示例
       license: MIT
 
-    - id: leancloud/cloud-code-weixin
+    - id: leancloud/LeanEngine-WechatBot
       tags: !!seq [nodejs, cloudcode, weixin]
       desc: 云代码接入微信的示例
       license: MIT
