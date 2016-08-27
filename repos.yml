@@ -146,3 +146,8 @@ repos:
     - id: twiceyuan/RxLeanCloud
       tags: !!seq [Android, RxJava, ReactiveX, RxAndroid]
       license: WTFPL
+    
+    - id: Jimexist/fake-leancloud-auth
+      tags: !!seq [node, auth, testing]
+      desc: a fake leancloud auth api backend, intended to be used in CI environment
+      license: MIT
