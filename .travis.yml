@@ -9,4 +9,6 @@ after_success: |
     mv generated.json target/ && \
     sudo pip install ghp-import && \
     ghp-import -n target && \
-    git push -qf https://${TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git gh-pages
+    git push -qf https://${TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git gh-pages > /dev/null 2>&1
+
+
