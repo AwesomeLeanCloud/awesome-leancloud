@@ -151,3 +151,8 @@ repos:
       tags: !!seq [node, auth, testing]
       desc: a fake leancloud auth api backend, intended to be used in CI environment
       license: MIT
+      
+    - id: bestony/weapp-LeanCloud
+      tags: !!seq [javascript, demo, wechat]
+      desc: a weapp demo based on leancloud
+      
