@@ -156,3 +156,8 @@ repos:
       tags: !!seq [javascript, demo, wechat]
       desc: a weapp demo based on leancloud
       
+    - id: WaylanPunch/Heard
+      tags: !!seq [Android, Java, Demo]
+      desc: a photo-share app demo based on leancloud
+      
+      
