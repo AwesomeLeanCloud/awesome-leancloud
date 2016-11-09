@@ -162,7 +162,7 @@ repos:
       
     - id: trawor/VZ
       tags: !!seq [iOS, Demo]
-      desc: 微转是一个基于微博的数码设备平台, 客户端和后台全部基于AVOSCloud服务实现
+      desc: 微转是一个基于微博的数码设备平台, 客户端和后台全部基于AVOSCloud服务实现。
 
     - id: pgbo/WukongSNS
       tags: !!seq [iOS, Demo]
@@ -181,3 +181,7 @@ repos:
     - id: killme2008/cloudcode-test
       tags: !!seq [LeanEngine, Demo]
       desc: 这是一个托管在AVOS Cloud上的一个简单留言板网站。
+      
+    - id: trawor/VZ_Server
+      tags: !!seq [LeanEngine]
+      desc: 微转是一个基于微博的数码设备平台, 客户端和后台全部基于AVOSCloud服务实现。    
