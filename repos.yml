@@ -172,3 +172,8 @@ repos:
       tags: !!seq [Android]
       desc: AnimeTaste（品赏艾尼莫）是国内首个关注独立动画的网站。 移动版聚焦更新的全球独立动画的传播，让您随时随地能观看动画，分享快乐给更多好友。品味动画，重拾幻想。
       license: MIT
+      
+    - id: LunaGao/AnyTime
+      tags: !!seq [Android]
+      desc: 该应用展示了：1、用户注册、登陆、登出和忘记密码等用户系统相关的功能；2、相对复杂一些的数据增删改查操作；消息推送。
+      license: Apache License 2
