@@ -163,3 +163,7 @@ repos:
     - id: trawor/VZ
       tags: !!seq [iOS, Demo]
       desc: 微转是一个基于微博的数码设备平台, 客户端和后台全部基于AVOSCloud服务实现
+
+    - id: pgbo/WukongSNS
+      tags: !!seq [iOS, Demo]
+      desc: 基于 LeanCloud 来实现的 Swift 项目，只当练手和学习的类似微信朋友圈的一个应用。悟空的形象深入人性，那么就暂且把这个小东西叫悟空吧！数据来源于「名人朋友圈」这个有趣的 APP，有兴趣的同学可以去下载Cosplay一把！
