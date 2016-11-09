@@ -177,3 +177,7 @@ repos:
       tags: !!seq [Android]
       desc: 该应用展示了：1、用户注册、登陆、登出和忘记密码等用户系统相关的功能；2、相对复杂一些的数据增删改查操作；消息推送。
       license: Apache License 2
+
+    - id: killme2008/cloudcode-test
+      tags: !!seq [LeanEngine, Demo]
+      desc: 这是一个托管在AVOS Cloud上的一个简单留言板网站。
