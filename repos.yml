@@ -167,3 +167,8 @@ repos:
     - id: pgbo/WukongSNS
       tags: !!seq [iOS, Demo]
       desc: 基于 LeanCloud 来实现的 Swift 项目，只当练手和学习的类似微信朋友圈的一个应用。悟空的形象深入人性，那么就暂且把这个小东西叫悟空吧！数据来源于「名人朋友圈」这个有趣的 APP，有兴趣的同学可以去下载Cosplay一把！
+
+    - id: daimajia/AnimeTaste
+      tags: !!seq [Android]
+      desc: AnimeTaste（品赏艾尼莫）是国内首个关注独立动画的网站。 移动版聚焦更新的全球独立动画的传播，让您随时随地能观看动画，分享快乐给更多好友。品味动画，重拾幻想。
+      license: MIT
