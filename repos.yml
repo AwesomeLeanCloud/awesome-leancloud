@@ -184,4 +184,28 @@ repos:
       
     - id: trawor/VZ_Server
       tags: !!seq [LeanEngine]
-      desc: 微转是一个基于微博的数码设备平台, 客户端和后台全部基于AVOSCloud服务实现。    
+      desc: 微转是一个基于微博的数码设备平台, 客户端和后台全部基于AVOSCloud服务实现。
+      
+    - id: BaaSBeginner/leanchat-ios
+      tags: !!seq [iOS]
+      desc: 这个示例项目全面展示了 LeanCloud 实时通讯功能的应用，但含杂着许多 UI 代码和其它功能，并不适合快速上手学习，如果你第一次接触 LeanMessage，更推荐 LeanMessage-Demo 项目。等熟悉了之后，可前往 LeanCloud-Demos 挑选你喜欢的 IM 皮肤进行集成。集成的过程中，若遇到疑难问题，不妨再来参考 LeanChat 项目。
+      
+    - id: BaaSBeginner/LZAlbum
+      tags: !!seq [iOS]
+      desc: 基于 LeanCloud 的朋友圈，展示了如何在 LeanCloud 上实现一对一和一对多的关系建模。
+      
+    - id: BaaSBeginner/photo-wall
+      tags: !!seq [Swift]
+      desc: Swift 写的照片墙应用，后台基于 LeanCloud
+      
+    - id: BaaSBeginner/todo
+      tags: !!seq [Javascript]
+      desc: 用 LeanCloud Javascript SDK、云代码 实现的 TodoMVC
+      
+    - id: BaaSBeginner/android-todolist
+      tags: !!seq [Android]
+      desc: TodoList App，示例了数据的增删改查，推荐。
+      
+    - id: BaaSBeginner/dian-ping-shang-hu
+      tags: !!seq [iOS]
+      desc: 这个示例项目是一个商户管理的综合应用，展现了 LeanCloud平台的数据存储、统计分析功能。   
