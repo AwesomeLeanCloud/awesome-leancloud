@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Awesome LeanCloud: 社区维护的 LeanCloud 开源生态周边</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <!-- Le styles -->
+    <link href="bower_components/skeleton-css/css/normalize.css" rel="stylesheet">
+    <link href="bower_components/skeleton-css/css/skeleton.css" rel="stylesheet">
+    <link href="bower_components/octicons/octicons/octicons.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    <div class="section hero">
+      <div class="container">
+        <div class="hero-heading">
+          <h1><span class="awesome">Awesome</span> <span class="leancloud">LeanCloud</span></h1>
+          <p>社区维护的 LeanCloud 开源生态周边：多语言 SDK，最佳实践库，UI 组件，云代码模块等</p>
+
+          <p><a href="https://github.com/sunng87/awesome-leancloud/edit/master/repos.yml"
+                class="button button-submit"><span class="octicon octicon-git-pull-request"></span> 提交你的类库</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section search">
+      <div class="container">
+        <h2>搜索</h2>
+        <div>
+          <input class="u-full-width" type="search" id="repo-search">
+          <ul class="no-style popular-search">
+          </ul>
+        </div>
+
+        <div class="search-results">
+          <ul class="no-style"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="section highlight">
+      <div class="container">
+        <div class="row">
+          <div class="one-half column">
+            <h2>最多 Star</h2>
+            <ul class="no-style most-stars">
+            </ul>
+          </div>
+          <div class="one-half column">
+            <h2>最近更新</h2>
+            <ul class="no-style recent-update"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section footer">
+      <div class="container">
+      Fork me at <a href="https://github.com/sunng87/awesome-leancloud">Github</a> to improve this page.
+        <p class="last-update u-pull-right">最近更新：<span></span></p>
+      </div>
+    </div>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster
+    -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/handlebars/handlebars.min.js"></script>
+    <script src="bower_components/lodash/lodash.min.js"></script>
+    <script src="bower_components/lunr.js/lunr.min.js"></script>
+
+    <script type="text/x-handlebars-template" id="repo-tpl">
+      <li>
+        <div class="repo">
+          <div class="repo-head">
+            <a href="{{url}}" class="repo-link">
+              <img src="{{owner.avatar_url}}" class="u-pull-right avatar">
+              <h3>
+                <span class="owner">{{owner.login}}</span><br>
+                <span class="name">{{name}}</span>
+              </h3>
+              <span class="lang">{{language}} &middot; {{license}}</span>
+            </a>
+          </div>
+          <div class="detail">
+            <p class="repo-desc">{{desc}}</p>
+            <p class="repo-desc"><span class="octicon octicon-tag"></span> {{#each tags}}<span class="tag">{{this}}</span> {{/each}}</p>
+            <p>
+              <span class="u-pull-left update">{{last_update}}</span>
+              <span class="u-pull-right stars"><span class="octicon octicon-star"></span> {{stars}}</span>
+            </p>
+            <div class="u-cf"></div>
+          </div>
+        </div>
+      </li>
+    </script>
+
+    <script>
+     window.AL = {};
+     AL.tpl = Handlebars.compile($('#repo-tpl').html());
+
+     $.getJSON("./generated.json", function(data) {
+       $(".last-update span").text(data.updated);
+       AL.data = data;
+
+       AL.index = lunr(function() {
+         this.field('name', {boost: 10});
+         this.field('desc');
+         this.field('tags', {boost: 5});
+         this.field('language', {boost: 5});
+         this.field('owner.login', {boost: 3});
+         this.ref('url');
+       });
+
+       _.chain(data.repos)
+        .map('tags')
+        .flatten()
+        .countBy(function(tag){return tag})
+        .pairs()
+        .sortBy(function(i){return i[1]})
+        .reverse()
+        .take(8)
+        .map(function(i){return i[0]})
+        .forEach(function(i){
+          var html = $('<li><a href="#"></a></li>');
+          $('a', html).text(i);
+          $('.popular-search').append(html);
+        })
+        .value();
+
+       _.chain(data.repos)
+        .sortBy('stars')
+        .reverse()
+        .take(10)
+        .forEach(function(item){
+          var html = AL.tpl(item);
+          $('ul.most-stars').append(html);
+        })
+        .value();
+
+       _.chain(data.repos)
+        .sortBy('last_update')
+        .reverse()
+        .take(10)
+        .forEach(function(item){
+          var html = AL.tpl(item);
+          $('ul.recent-update').append(html);
+        })
+        .value();
+
+       _.forEach(data.repos, function(item){
+         AL.index.add(item);
+       });
+
+       AL.search = function() {
+         $('.search-results ul').empty();
+         var token = $('#repo-search').val();
+         var results = AL.index.search(token);
+         _.chain(results)
+          .map(function(item){
+            return _.find(AL.data.repos, 'url', item.ref);
+          })
+          .forEach(function(item){
+            var html = AL.tpl(item);
+            $('.search-results ul').append(html);
+          })
+          .value();
+       };
+
+       $('#repo-search').keyup(AL.search);
+       $('ul.popular-search a').click(function(e){
+         e.preventDefault();
+         $('#repo-search').val($(e.target).text());
+         AL.search();
+       });
+     });
+    </script>
+  </body>
+</html>
