@@ -20,11 +20,7 @@ repos:
     - id: zx9597446/go-leancloud
       tags: !!seq [go]
       license: MIT
-
-    - id: leancloud/python-sdk
-      tags: !!seq [storage, python, sdk, official]
-      license: LGPL
-
+      
     - id: baozoumanhua/LeanCloud
       tags: !!seq [ruby, push]
       license: MIT
@@ -53,25 +49,10 @@ repos:
       tags: !!seq [nodejs, cloudcode]
       license: MIT
 
-    - id: leancloud/cloud-code-alipay
-      tags: !!seq [nodejs, cloudcode, alipay]
-      desc: 云代码接入支付宝的示例
-      license: MIT
-
-    - id: leancloud/LeanEngine-WechatBot
-      tags: !!seq [nodejs, cloudcode, weixin]
-      desc: 云代码接入微信的示例
-      license: MIT
-
     - id: greenmoon55/EasyNote
       tags: !!seq [android, demo, sns, weibo]
       desc: 简单的 Android 笔记应用，涉及数据的增删改查、微博授权登录和 ACL 权限设置。
       license: MIT
-
-    - id: leancloud/delphi-sdk
-      tags: !!seq [delphi, sdk]
-      desc: Delphi SDK 和 demo
-      license:
 
     - id: GongT/lean-g-command
       tags: !!seq [nodejs, framework]
